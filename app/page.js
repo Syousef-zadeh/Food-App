@@ -1,14 +1,23 @@
 import Link from "next/link";
+import classes from 'page.module.css';
 
 export default function Home() {
   return (
+   <>
+    <header className={classes.header}>
+      <div className={classes.slidshow}>
+
+      </div>
+      <div>
+        <div className={classes.hero}>
+          NextLevel Food for NextLevel Foodies.
+        </div>
+        <div></div>
+      </div>
+    </header>
     <main>
-      <h1 style={{ color: 'white', textAlign: 'center' }}>
-        Time to get started!
-      </h1>
-      <p><Link href="/meals">Meals</Link></p>
-      <p><Link href="/meals/share">Share Meals</Link></p>
-      <p><Link href="/community">Community</Link></p>
+
     </main>
+   </>
   );
 }
