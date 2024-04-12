@@ -6,6 +6,7 @@ import eventsIcon from '@/assets/icons/events.png';
 import classes from './page.module.css';
 
 export default function CommunityPage() {
+
   return (
     <>
       <header className={classes.header}>
