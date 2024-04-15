@@ -19,7 +19,9 @@ export default function Meals() {
             </Link>
         </p>
       </header>
-      <main className={classes.main}></main>
+      <main className={classes.main}>
+        
+      </main>
     </>
   );
 }
